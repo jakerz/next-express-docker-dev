@@ -1,9 +1,0 @@
-version: "3"
-services:
-  shell:
-    image: ubuntu
-    command: bash
-    volumes:
-      - "${SSH_AUTH_SOCK}:/home/deploy/ssh_auth_sock"
-    environment:
-      SSH_AUTH_SOCK: /home/deploy/ssh_auth_sock
