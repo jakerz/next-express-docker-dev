@@ -33,13 +33,5 @@
 	"remoteUser": "node",
 	"features": {
 		"github-cli": "latest"
-	},
-
-	// Arguments to forward ssh-agent socket
-	// "runArgs": [
-	// 	"-v",
-	// 	"${env:SSH_AUTH_SOCK}:/tmp/ssh-agent.socket",
-	// 	"-e",
-	// 	"SSH_AUTH_SOCK=/tmp/ssh-agent.socket"
-	// ]
+	}
 }
