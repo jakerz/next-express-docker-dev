@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         </h1>
 
         <h2>Hello World!</h2>
-        <NextButton name="My first NextButton."/>
+        <NextButton btnName="My first NextButton."/>
 
         <p className={styles.description}>
           Get started by editing{' '}

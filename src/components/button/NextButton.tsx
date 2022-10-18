@@ -1,12 +1,13 @@
-interface Props {
-    children: React.ReactNode
+interface INextBtn {
+    btnName: string,
+    btnValue?: number,
 }
 
-export default function NextButton({ children }: Props) {
+export default function NextButton(props : INextBtn) {
     return (
         <>
             <div>
-                <button type="button">{children.name}</button>
+                <button type="button">{props.btnName}</button>
             </div>
         </>
     )
