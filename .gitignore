@@ -1,1 +1,6 @@
 node_modules/
+
+# Next Server
+.next
+# Local Netlify folder
+.netlify
