@@ -4,6 +4,7 @@
   functions = "netlify/functions"
   publish = ".next"
 
+
   # [[redirects]]
   # from="/api/*"
   # to="/.netlify/functions/:splat"

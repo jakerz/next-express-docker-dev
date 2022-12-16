@@ -32,3 +32,12 @@ Next steps:
 
 - `git push`
 - `netlify open`
+
+## Launch Netlify Dev Server
+`netlify dev`
+
+### Navigate to localhost server:
+`http://localhost:8888/`
+
+### Test Netlify Functions:
+`http://localhost:8888/.netlify/function/myFunction`
